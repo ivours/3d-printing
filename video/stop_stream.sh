@@ -1,5 +1,3 @@
 #!/bin/bash
 
-VIDEO_DEVICE=$1
-
-screen -X -S "$VIDEO_DEVICE" quit
+screen -X -S "video_stream" quit
